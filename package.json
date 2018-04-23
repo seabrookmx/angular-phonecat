@@ -1,0 +1,31 @@
+{
+  "name": "angular-phonecat",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A tutorial application for AngularJS 1.6 / Webpack",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "dependencies": {
+    "angular": "1.6.x",
+    "angular-mocks": "1.6.x",
+    "bootstrap": "3.3.x"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run"
+  }
+}
