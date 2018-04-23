@@ -121,3 +121,11 @@ package.json             --> Node.js specific metadata, including development to
 
 For more information on AngularJS, please check out https://angularjs.org/.
 
+[angular-seed]: https://github.com/angular/angular-seed
+[git-home]: https://git-scm.com/
+[git-setup]: https://help.github.com/articles/set-up-git
+[google-phone-gallery]: http://web.archive.org/web/20131215082038/http://www.android.com/devices
+[jasmine]: https://jasmine.github.io/
+[karma]: https://karma-runner.github.io/
+[node]: https://nodejs.org/
+
